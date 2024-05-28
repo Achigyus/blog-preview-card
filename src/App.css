@@ -50,6 +50,16 @@ body{
   width: 100%;
   max-width: 384px;
   margin: auto;
+  cursor: pointer;
+  transition: all ease-in 0.3s;
+}
+
+.blog_card:hover{
+  box-shadow: 16px 16px 0px #000000;
+}
+
+.blog_card:hover .blog_title{
+  color: #F4D04E;
 }
 
 .illustration_img_container{
@@ -79,6 +89,7 @@ body{
 
 .blog_title{
   font-size: min(5.33vw, 24px);
+  transition: all ease-in 0.3s;
 }
 
 .blog_description{
