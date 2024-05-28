@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.figtree-500 {
+  font-family: "Figtree", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.figtree-800 {
+  font-family: "Figtree", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+body{
+  font-size: 16px;
+  background: #F4D04E;
+  max-width: 100%;
+  color: #111111;
+  font-size: min(3.2vw, 14px);
+  line-height: 150%;
+}
+
+.container{
+  min-height: 812px;
+  padding: 0 6.4%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.blog_card{
+  background: #FFFFFF;
+  border: 1px solid #111111;
+  box-shadow: 8px 8px 0px #000000;
+  border-radius: 20px;
+  padding: min(6.4vw ,24px);
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 384px;
+  margin: auto;
+}
+
+.illustration_img_container{
+  width: 100%;
+}
+
+.illustration_img{
+  display: inline-block;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.blog_details_container{
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: flex-start;
+}
+
+.blog_category_link{
+  background-color: #F4D04E;
+  text-decoration: none;
+  color: #111111;
+  padding: 4px 12px;
+  border-radius: 4px;
+}
+
+.blog_title{
+  font-size: min(5.33vw, 24px);
+}
+
+.blog_description{
+  color: #7f7f7f;
+  font-size: min(3.73vw, 16px);
+}
+
+.blog_author_container{
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.blog_author_img_container{
+  width: 32px;
+  height: 32px;
+}
+
+.blog_author_img{
+  display: inline-block;
+  width: 100%;
+}
+
+.attribution{
+  padding: 5px 10px;
+  text-align: center;
+}
